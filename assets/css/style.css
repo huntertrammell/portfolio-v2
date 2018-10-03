@@ -4,15 +4,17 @@ body {
 }
 a.nav-link {
     text-decoration: none;
-    color: #07efda;
+    color: #33ff00;
 }
 a.nav-link:hover {
-    opacity: 0.5;
+    text-shadow: 0 0 10px #33ff00;
+    color: #ece9d8;
 }
 /*Define heights on pages to allow 1 page portfolio with scrollspy animations*/
 .navbar {
     height: 7vh;
     font-family: 'Roboto Mono', monospace;
+    background: #282828;
 }
 
 .intro {
@@ -30,8 +32,9 @@ a.nav-link:hover {
 .intro-text {
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    color: #07efda;
+    color: #33ff00;
     font-size: 8em;
+    text-shadow: 0 0 10px #33ff00;
 }
 @keyframes slideOutUp {
     from {
@@ -56,6 +59,7 @@ animation-name: slideOutUp;
 }
 .projects {
     height: 100vh;
+    background-image: url(../images/windows-xp-bliss-4k-lu-2048x1152.jpg);
 }
 .contact {
     height: 100vh;
