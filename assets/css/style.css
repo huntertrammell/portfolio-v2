@@ -1,9 +1,10 @@
 body {
     overflow-x: hidden;
+    background-image: url(../images/blackmamba.png);
 }
 a.nav-link {
     text-decoration: none;
-    color: white;
+    color: #07efda;
 }
 a.nav-link:hover {
     opacity: 0.5;
@@ -11,22 +12,57 @@ a.nav-link:hover {
 /*Define heights on pages to allow 1 page portfolio with scrollspy animations*/
 .navbar {
     height: 7vh;
+    font-family: 'Roboto Mono', monospace;
 }
+
 .intro {
     height: 100vh;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0.04) 0%, rgba(0,0,0,0.73) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.04)), color-stop(100%,rgba(0,0,0,0.73)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0.04) 0%,rgba(0,0,0,0.73) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(0,0,0,0.04) 0%,rgba(0,0,0,0.73) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(0,0,0,0.04) 0%,rgba(0,0,0,0.73) 100%);
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0.04) 0%,rgba(0,0,0,0.73) 100%);	
 }
+.intro-title {
+    margin-top: 20vh;
+}
+.intro-text {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #07efda;
+    font-size: 8em;
+}
+@keyframes slideOutUp {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+  
+    to {
+      visibility: visible;
+      transform: translate3d(0, -100%, 0);
+    }
+}
+  
+.slideOutUp {
+animation-name: slideOutUp;
+}
+.summary {
+    top: -100px;
+}
+
 .about {
     height: 100vh;
 }
-.portfolio {
+.projects {
     height: 100vh;
 }
 .contact {
     height: 100vh;
 }
-/* Created text attributes to keep consistant style
+/*
 .title-text {
-    
+
 }
 .header-text {
 
