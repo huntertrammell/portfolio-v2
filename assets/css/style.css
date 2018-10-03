@@ -1,0 +1,26 @@
+body {
+    overflow-x: hidden;
+}
+a.nav-link {
+    text-decoration: none;
+    color: white;
+}
+a.nav-link:hover {
+    opacity: 0.5;
+}
+
+.navbar {
+    height: 7vh;
+}
+.intro {
+    height: 100vh;
+}
+.about {
+    height: 100vh;
+}
+.portfolio {
+    height: 100vh;
+}
+.contact {
+    height: 100vh;
+}
