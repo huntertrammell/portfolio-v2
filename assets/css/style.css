@@ -8,7 +8,7 @@ a.nav-link {
 a.nav-link:hover {
     opacity: 0.5;
 }
-
+/*Define heights on pages to allow 1 page portfolio with scrollspy animations*/
 .navbar {
     height: 7vh;
 }
@@ -24,3 +24,17 @@ a.nav-link:hover {
 .contact {
     height: 100vh;
 }
+/* Created text attributes to keep consistant style
+.title-text {
+    
+}
+.header-text {
+
+}
+.body-text {
+
+}
+.sub-text {
+
+}
+*/
