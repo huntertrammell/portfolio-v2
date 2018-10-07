@@ -16,9 +16,22 @@ a.nav-link:hover {
     font-family: 'Roboto Mono', monospace;
     background: #282828;
 }
-
+.nav-link.active {
+    text-shadow: 0 0 10px #33ff00;
+    color: #ece9d8;
+    background: none !important;
+}
+.img-1 {
+    z-index: 3;
+}
+.img-2 {
+    z-index: 2;
+}
+.img-3 {
+    z-index: 2;
+}
 .intro {
-    height: 100vh;
+    height: 93vh;
     background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0.04) 0%, rgba(0,0,0,0.73) 100%);
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.04)), color-stop(100%,rgba(0,0,0,0.73)));
     background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0.04) 0%,rgba(0,0,0,0.73) 100%);
@@ -54,19 +67,9 @@ animation-name: slideOutUp;
     top: -100px;
 }
 
-.about {
-    height: 100vh;
-}
-.projects {
-    height: 100vh;
-    background-image: url(../images/windows-xp-bliss-4k-lu-2048x1152.jpg);
-}
-.contact {
-    height: 100vh;
-}
-/*
 .title-text {
-
+    color: #ece9d8;
+    text-align: center
 }
 .header-text {
 
@@ -77,4 +80,4 @@ animation-name: slideOutUp;
 .sub-text {
 
 }
-*/
+

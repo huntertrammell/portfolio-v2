@@ -20,3 +20,11 @@ $('.intro-nav').on('click',function(){
         summary.addClass('fadeInLeft')
     },3000)
 })
+$(document).ready(function(){
+    $('.fullStack').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
+  });
