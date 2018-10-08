@@ -1,13 +1,26 @@
 body {
     overflow-x: hidden;
-    background-image: url(../images/blackmamba.png);
+    background-image: url(../images/planetvector.png);
+    background-size: 100%;
+    background-repeat: no-repeat; 
 }
 a.nav-link {
     text-decoration: none;
     color: #ece9d8;
+    font-family: 'Do Hyeon', sans-serif;
 }
 a.nav-link:hover {
     text-shadow: 0 0 10px #33ff00;
+    color: #ece9d8;
+}
+.btn-projects {
+    color: #ece9d8;
+    text-shadow: 2px 2px 4px black;
+    background-color: #61b3ee;
+}
+.btn-projects:hover {
+    text-decoration: none;
+    box-shadow: 0 0 10px #ece9d8;
     color: #ece9d8;
 }
 /*Define heights on pages to allow 1 page portfolio with scrollspy animations*/
@@ -33,12 +46,6 @@ a.nav-link:hover {
     width: 10%;
     padding-left: 4px;
 }
-.img-inner:hover,
-.img-left:hover,
-.img-right:hover {
-    position: relative;
-    top: -10px;
-}
 .fullStack {
     text-align: center;
 }
@@ -49,21 +56,17 @@ a.nav-link:hover {
     animation-delay: 1.25s;
 }
 .intro {
-    height: 90vh;
-    background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0.04) 0%, rgba(0,0,0,0.73) 100%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.04)), color-stop(100%,rgba(0,0,0,0.73)));
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0.04) 0%,rgba(0,0,0,0.73) 100%);
-    background: -o-radial-gradient(center, ellipse cover, rgba(0,0,0,0.04) 0%,rgba(0,0,0,0.73) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, rgba(0,0,0,0.04) 0%,rgba(0,0,0,0.73) 100%);
-    background: radial-gradient(ellipse at center, rgba(0,0,0,0.04) 0%,rgba(0,0,0,0.73) 100%);	
+    height: 100vh;
 }
 .intro-title {
     margin-top: 20vh;
 }
 .intro-text {
     text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
     color: #ece9d8;
     font-size: 8em;
+    text-shadow: 2px 2px 4px black;
 }
 @keyframes slideOutUp {
     from {
@@ -81,6 +84,8 @@ animation-name: slideOutUp;
 }
 .summary {
     top: -100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     animation-delay: 250ms;
     animation-duration: 1.5s;
 }
@@ -91,6 +96,8 @@ animation-name: slideOutUp;
 .title-text {
     color: #ece9d8;
     text-align: center;
+    text-shadow: 2px 2px 4px black;
+    font-family: 'Do Hyeon', sans-serif;
 }
 .header-text {
 
