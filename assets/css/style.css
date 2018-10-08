@@ -4,7 +4,7 @@ body {
 }
 a.nav-link {
     text-decoration: none;
-    color: #33ff00;
+    color: #ece9d8;
 }
 a.nav-link:hover {
     text-shadow: 0 0 10px #33ff00;
@@ -12,8 +12,7 @@ a.nav-link:hover {
 }
 /*Define heights on pages to allow 1 page portfolio with scrollspy animations*/
 .navbar {
-    height: 7vh;
-    font-family: 'Roboto Mono', monospace;
+    height: 10vh;
     background: #282828;
 }
 .nav-link.active {
@@ -21,17 +20,36 @@ a.nav-link:hover {
     color: #ece9d8;
     background: none !important;
 }
-.img-1 {
-    z-index: 3;
+.img-left {
+    width: 10%;
+    padding-right: 4px;
 }
-.img-2 {
-    z-index: 2;
+.img-inner {
+    width: 10%;
+    padding-left: 4px;
+    padding-right: 4px;
 }
-.img-3 {
-    z-index: 2;
+.img-right {
+    width: 10%;
+    padding-left: 4px;
+}
+.img-inner:hover,
+.img-left:hover,
+.img-right:hover {
+    position: relative;
+    top: -10px;
+}
+.fullStack {
+    text-align: center;
+}
+.profilePic {
+    border-radius: 50%;
+}
+.profile {
+    animation-delay: 1.25s;
 }
 .intro {
-    height: 93vh;
+    height: 90vh;
     background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0.04) 0%, rgba(0,0,0,0.73) 100%);
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.04)), color-stop(100%,rgba(0,0,0,0.73)));
     background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0.04) 0%,rgba(0,0,0,0.73) 100%);
@@ -44,10 +62,8 @@ a.nav-link:hover {
 }
 .intro-text {
     text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    color: #33ff00;
+    color: #ece9d8;
     font-size: 8em;
-    text-shadow: 0 0 10px #33ff00;
 }
 @keyframes slideOutUp {
     from {
@@ -65,11 +81,16 @@ animation-name: slideOutUp;
 }
 .summary {
     top: -100px;
+    animation-delay: 250ms;
+    animation-duration: 1.5s;
 }
-
+.caption {
+    animation-iteration-count: infinite;
+    animation-duration: 2999ms;
+}
 .title-text {
     color: #ece9d8;
-    text-align: center
+    text-align: center;
 }
 .header-text {
 
@@ -78,6 +99,7 @@ animation-name: slideOutUp;
 
 }
 .sub-text {
-
+    color: #ece9d8;
+    text-align: center;
 }
 
