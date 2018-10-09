@@ -67,6 +67,13 @@ a.nav-link:hover {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.projects {
+    height: 90vh;
+    padding-top: 20px;
+    background-image: url(../images/pixelbackground.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .intro-title {
     margin-top: 20vh;
 }
