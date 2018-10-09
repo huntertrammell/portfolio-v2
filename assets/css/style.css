@@ -30,7 +30,7 @@ a.nav-link:hover {
 /*Define heights on pages to allow 1 page portfolio with scrollspy animations*/
 .navbar {
     height: 10vh;
-    background: #282828;
+    background-color: #282828;
 }
 .nav-link.active {
     text-shadow: 0 0 10px #33ff00;
@@ -119,4 +119,39 @@ animation-name: slideOutUp;
     color: white;
     text-align: center;
 }
-
+.project-list {
+    background-color: #12639c;
+    box-shadow: 2px 2px 4px black;
+    height: 8%;
+}
+.project-info {
+    background-color: #282828;
+    box-shadow: 2px 2px 4px black;
+    animation-duration: 2s;
+}
+.project-picture {
+    box-shadow: 8px 8px 14px black;
+}
+.list-1 {
+    animation-duration: 1s;
+}
+.list-2 {
+    animation-delay: .10s;
+    animation-duration: 1s;
+}
+.list-3 {
+    animation-delay: .20s;
+    animation-duration: 1s;
+}
+.list-4 {
+    animation-delay: .30s;
+    animation-duration: 1s;
+}
+.list-5 {
+    animation-delay: .40s;
+    animation-duration: 1s;
+}
+.list-6 {
+    animation-delay: .50s;
+    animation-duration: 1s;
+}

@@ -34,61 +34,64 @@
                 <!--Store all data needed to pull and 
                     output everything to side col on click
                     use data attr to store all data needed-->
-                <div class="col-12 bg-warning my-4">
-                    <p>Dragonball RPG</p>
+                <div class="col-12 project-list my-4 rounded list-1 animated slideInLeft" data-target="dragonball_RPG">
+                    <p class="title-text pt-1">Dragonball RPG</p>
                 </div>
-                <div class="col-12 bg-warning mb-4">
-                    <p>Videogame Trivia</p>
+                <div class="col-12 project-list mb-4 rounded list-2 animated slideInLeft" data-target="trivia_Game">
+                    <p class="title-text pt-1">Videogame Trivia</p>
                 </div>
-                <div class="col-12 bg-warning mb-4">
-                    <p>Gif Generator</p>
+                <div class="col-12 project-list mb-4 rounded list-3 animated slideInLeft" data-target="gif_Generator">
+                    <p class="title-text pt-1">Gif Generator</p>
                 </div>
-                <div class="col-12 bg-warning mb-4">
-                    <p>Train Scheduler</p>
+                <div class="col-12 project-list mb-4 rounded list-4 animated slideInLeft" data-target="train_Scheduler">
+                    <p class="title-text pt-1">Train Scheduler</p>
                 </div>
-                <div class="col-12 bg-warning mb-4">
-                    <p>Films With Friends</p>
+                <div class="col-12 project-list mb-4 rounded list-5 animated slideInLeft" data-target="films_With_Friends">
+                    <p class="title-text pt-1">Films With Friends</p>
                 </div>
-                <div class="col-12 bg-warning mb-4">
-                    <p>LIRI Bot</p>
+                <div class="col-12 project-list mb-4 rounded list-6 animated slideInLeft" data-target="liri_Bot">
+                    <p class="title-text pt-1">LIRI Bot</p>
                 </div>
             </div>
-            <div class="col-8 bg-dark">
+            <div class="col-8 project-info rounded animated fadeIn">
                 <!--create preformatted div that js can push into on 
                     click. need spots for description, image, link button
                     and a box for languages used-->
                 <div class="row mt-2">
                     <div class="col-12">
-                        <h1 id="project-name" class="title-text">Project 1</h1>
+                        <h1 id="project-name" class="title-text">Dragonball RPG</h1>
                         <hr class="bg-light mb-4">
                     </div>
                 </div>
-                <div class="row mx-4">
-                    <div class="col-8">
-                        <h5 id="project-summary" class="title-text">A breif one line description of what my project does</h5>
+                <div class="row mx-4 mt-4">
+                    <div class="col-8 pt-2">
+                        <h4 id="project-summary" class="title-text pb-4">A click-based game that simulates fights between characters</h4>
                         <p id="project-description" class="title-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Autem, necessitatibus? Fugiat minima a quas deserunt possimus 
-                            laudantium excepturi molestiae reprehenderit laboriosam! Quos 
-                            atque magnam temporibus aperiam labore sit! Doloremque, obcaecati!
+                            The first thing that came to my mind when making a 
+                            figher RPG game was dragonball. I am a huge fan of 
+                            the series(plural) so it was only natural that I went 
+                            with this theme. The object of the game is to defeat all 
+                            opponents available without dying first. Each fighter 
+                            has a specific attack, counter, and health assigned so 
+                            it is possible to loose or win with any character 
+                            depending on the order you select your opponents.
                         </p>
+                        <div class="row">
+                            <div class="col py-4">
+                                <p id="project-tech" class="title-text">{ HTML / Bootstrap / CSS / Javascript / jQuery }</p>
+                            </div>
+                        </div>
+                        <div class="row text-center mx-4">
+                            <div class="col">
+                                <a id="project-repo" class="btn btn-projects" href="">View Github Repository</a>
+                            </div>
+                            <div class="col">
+                                <a id="project-link" class="btn btn-projects" href="">View Project Website</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-4">
-                        <img class="w-100" id="project-img" src="assets/images/pixelbackground.jpeg" alt="" class="project-picture">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <hr class="bg-light">
-                        <p id="project-tech" class="title-text">{ HTML / Bootstrap / CSS / Javascript / Jquery / Moment.js / Firebase / Animate.css }</p>
-                    </div>
-                </div>
-                <div class="row text-center pb-4 mx-4">
-                    <div class="col">
-                        <a id="project-repo" class="btn btn-projects" href="">View Github Repository</a>
-                    </div>
-                    <div class="col">
-                        <a id="project-link" class="btn btn-projects" href="">View Project Website</a>
+                    <div class="col-4 pt-4 mt-4">
+                        <img class="w-100 project-picture" id="project-img" src="assets/images/projects/dragonball_RPG.PNG" alt="">
                     </div>
                 </div>
             </div>
