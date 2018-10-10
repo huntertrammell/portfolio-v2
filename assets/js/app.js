@@ -111,12 +111,15 @@ const liri_Bot= {
 }
 
 
-
+listArr = [dragonball_RPG, trivia_Game, gif_Generator, train_Scheduler, films_With_Friends, liri_Bot]
 //logic for updating the project-info div with current project info on click
 $('.project-list').on('click', function updateInfo(){
-    let project = $(this).data('target')
-    let title = project.title
-    console.log(project)
-    console.log(liri_Bot)
-    
+    let project = parseInt($(this).data('target'))
+    $('#project-img').attr('src', listArr[project].img)
+    $('#project-link').attr('href', listArr[project].link)
+    $('#project-repo').attr('href', listArr[project].repo)
+    $('#project-tech').text(listArr[project].tech)
+    $('#project-name').text(listArr[project].title)
+    $('#project-summary').text(listArr[project].summary)
+    $('#project-description').text(listArr[project].description)
 })
