@@ -74,6 +74,20 @@ a.nav-link:hover {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.about {
+    height: 90vh;
+    padding-top: 20px;
+    background-image: url(../images/pixelbackground.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact {
+    height: 90vh;
+    padding-top: 20px;
+    background-image: url(../images/pixelbackground.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .intro-title {
     margin-top: 20vh;
 }
@@ -118,6 +132,8 @@ animation-name: slideOutUp;
 .sub-text {
     color: white;
     text-align: center;
+    text-shadow: 2px 2px 4px black;
+    font-size: .75em;
 }
 .project-list {
     background-color: #12639c;
@@ -154,4 +170,14 @@ animation-name: slideOutUp;
 .list-6 {
     animation-delay: .50s;
     animation-duration: 1s;
+}
+.mainContact {
+    height: 50vh;
+}
+.social {
+    height: 20vh;
+}
+.social-links {
+    background-color: #12639c;
+    box-shadow: 2px 2px 4px black;
 }
