@@ -31,7 +31,7 @@
                     <img class="profilePic" src="assets/images/hunterPic.png" alt="Hunter Trammell">
                 </div>
                 <h4 class="title-text pt-4">
-                    <a class="btn btn-projects" href="./about.html">Get To Know Me</a>
+                    <a class="btn btn-projects" href="#about">Get To Know Me</a>
                 </h4>
             </div>
             <div class="col">
@@ -48,7 +48,7 @@
                 </div>
                 <h5 class="title-text caption animated pt-4 pb-4">Javascript</h5>
                 <h4 class="title-text pt-4">
-                    <a class="btn btn-projects" href="./projects.html">Explore Projects</a>
+                    <a class="btn btn-projects" href="#projects">Explore Projects</a>
                 </h4>
             </div>
             <div class="col">
@@ -58,8 +58,157 @@
                     <img class="profilePic" width="180" src="assets/images/mail.png" alt="Hunter Trammell">
                 </div>
                 <h4 class="title-text pt-4">
-                    <a class="btn btn-projects" href="./contact.html">Say Hello</a>
+                    <a class="btn btn-projects" href="#contact">Say Hello</a>
                 </h4>
+            </div>
+        </div>
+    </div>
+    <nav id="navbar" class="navbar navbar-dark sticky-top justify-content-end">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link intro-nav" href="#intro">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link about-nav" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link projects-nav" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link contact-nav" href="#contact">Contact</a>
+            </li>
+        </ul>   
+    </nav>
+    <div data-spy="scroll" data-target="#navbar" data-offset="0"></div>
+    <div id="about" class="container-fluid about">
+        <!--Insert about content here-->
+    </div>
+    <!--Projects Page begins-->
+    <div id="projects" class="container-fluid projects">
+        <div class="row row-1 mx-4 mt-4 pt-4">
+            <div class="col-4 mt-4 pt-3">
+                <h2 class="title-text animated fadeIn">Click on a project for more info</h2>
+                <!--Store all data needed to pull and 
+                    output everything to side col on click
+                    use data attr to store all data needed-->
+                <div class="col-12 project-list my-4 rounded list-1 animated slideInLeft" data-target="0">
+                    <p class="title-text pt-1">Dragonball RPG</p>
+                </div>
+                <div class="col-12 project-list mb-4 rounded list-2 animated slideInLeft" data-target="1">
+                    <p class="title-text pt-1">Videogame Trivia</p>
+                </div>
+                <div class="col-12 project-list mb-4 rounded list-3 animated slideInLeft" data-target="2">
+                    <p class="title-text pt-1">Gif Generator</p>
+                </div>
+                <div class="col-12 project-list mb-4 rounded list-4 animated slideInLeft" data-target="3">
+                    <p class="title-text pt-1">Train Scheduler</p>
+                </div>
+                <div class="col-12 project-list mb-4 rounded list-5 animated slideInLeft" data-target="4">
+                    <p class="title-text pt-1">Films With Friends</p>
+                </div>
+                <div class="col-12 project-list mb-4 rounded list-6 animated slideInLeft" data-target="5">
+                    <p class="title-text pt-1">LIRI Bot</p>
+                </div>
+            </div>
+            <div class="col-8 project-info rounded animated fadeIn">
+                <!--create preformatted div that js can push into on 
+                    click. need spots for description, image, link button
+                    and a box for languages used-->
+                <div class="row mt-2">
+                    <div class="col-12">
+                        <h1 id="project-name" class="title-text">Dragonball RPG</h1>
+                        <hr class="bg-light mb-4">
+                    </div>
+                </div>
+                <div class="row mx-4 mt-4">
+                    <div class="col-8 pt-2">
+                        <h4 id="project-summary" class="title-text pb-4">A click-based game that simulates fights between characters</h4>
+                        <p id="project-description" class="title-text">
+                            The first thing that came to my mind when making a 
+                            figher RPG game was dragonball. I am a huge fan of 
+                            the series(plural) so it was only natural that I went 
+                            with this theme. The object of the game is to defeat all 
+                            opponents available without dying first. Each fighter 
+                            has a specific attack, counter, and health assigned so 
+                            it is possible to loose or win with any character 
+                            depending on the order you select your opponents.
+                        </p>
+                        <div class="row">
+                            <div class="col py-4">
+                                <p id="project-tech" class="title-text">{ HTML / Bootstrap / CSS / Javascript / jQuery }</p>
+                            </div>
+                        </div>
+                        <div class="row text-center mx-4 pb-4">
+                            <div class="col">
+                                <a id="project-repo" class="btn btn-projects" href="https://github.com/huntertrammell/Dragonball-RPG">View Github Repository</a>
+                            </div>
+                            <div class="col">
+                                <a id="project-link" class="btn btn-projects" href="https://huntertrammell.github.io/Dragonball-RPG/">View Project Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 pt-4 mt-4">
+                        <img class="w-100 project-picture" id="project-img" src="assets/images/projects/dragonball_RPG.PNG" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="container-fliud contact">
+        <div class="row mx-4 mt-4 pt-4">
+            <div class="col">
+                <h1 class="title-text">Get in contact</h1>
+            </div>
+        </div>
+        <div class="row mx-4 mt-4 pt-4 mainContact">
+            <div class="col-8 text-center">
+                <div class="col-12 p-4 my-2 project-info">
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <h1 class="title-text text-left">
+                                    Send me a message
+                                </h1>
+                            </div>    
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-4">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-6">
+                                <input type="text" class="form-control" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col">
+                                <div class="form-group">
+                                    <textarea class="form-control" id="Message" rows="3" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-projects">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-4 mx-auto">
+                <h2 class="title-text text-center">Connect with me on Linked-in</h2>
+                <div class="row mx-auto">
+                    <div class="col-3">
+                        <img class="w-100 profilePic float-right" src="assets/images/hunter.jpg" alt="">
+                    </div>
+                    <div class="col-5 pt-2 project-info">
+                        <h5 class="title-text text-left p-0 m-0">Hunter Trammell</h5>
+                        <p class="sub-text text-left p-0 m-0"><b>Help Desk Analyst 1</b> at <b>AMC Theatres</b></p>
+                        <p class="sub-text text-left p-0 m-0">Overland Park, Kansas</p>
+                        <a class="btn btn-projects btn-sm float-left mx-0 p-1 mt-1" href="https://www.linkedin.com/in/huntertrammell/">Connect</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

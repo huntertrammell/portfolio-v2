@@ -68,22 +68,22 @@ a.nav-link:hover {
     background-repeat: no-repeat;
 }
 .projects {
-    height: 90vh;
-    padding-top: 20px;
+    height: 100%;
+    padding-top: 7% !important;
     background-image: url(../images/pixelbackground.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .about {
-    height: 90vh;
-    padding-top: 20px;
+    height: 100%;
+    padding-top: 7% !important;
     background-image: url(../images/pixelbackground.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .contact {
-    height: 90vh;
-    padding-top: 20px;
+    height: 100%;
+    padding-top: 7% !important;
     background-image: url(../images/pixelbackground.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
