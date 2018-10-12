@@ -181,3 +181,154 @@ animation-name: slideOutUp;
     background-color: #12639c;
     box-shadow: 2px 2px 4px black;
 }
+  @media (min-width: 1281px) {
+    h1 {
+
+    }
+    h2 {
+
+    }
+    h3 {
+
+    }
+    h4 {
+
+    }
+    h5 {
+
+    }
+    h6 {
+        
+    }
+        
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    h1 {
+
+    }
+    h2 {
+  
+    }
+    h3 {
+  
+    }
+    h4 {
+  
+    }
+    h5 {
+  
+    }
+    h6 {
+        
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    h1 {
+
+    }
+    h2 {
+  
+    }
+    h3 {
+  
+    }
+    h4 {
+  
+    }
+    h5 {
+  
+    }
+    h6 {
+        
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    h1 {
+
+    }
+    h2 {
+  
+    }
+    h3 {
+  
+    }
+    h4 {
+  
+    }
+    h5 {
+  
+    }
+    h6 {
+        
+    }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    h1 {
+
+    }
+    h2 {
+  
+    }
+    h3 {
+  
+    }
+    h4 {
+  
+    }
+    h5 {
+  
+    }
+    h6 {
+        
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    h1 {
+
+    }
+    h2 {
+  
+    }
+    h3 {
+  
+    }
+    h4 {
+  
+    }
+    h5 {
+  
+    }
+    h6 {
+        
+    }
+  }
