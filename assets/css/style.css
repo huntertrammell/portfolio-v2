@@ -71,14 +71,18 @@ a.nav-link:hover {
 .projects {
     height: 100%;
     padding-top: 7% !important;
+    padding-bottom: 7% !important;
 }
 .about {
     height: 100%;
     padding-top: 7% !important;
+    padding-bottom: 7% !important;
+    margin-bottom: 10% !important;
 }
 .contact {
     height: 100%;
     padding-top: 7% !important;
+    padding-bottom: 7% !important;
 }
 .intro-title {
     margin-top: 20vh;
