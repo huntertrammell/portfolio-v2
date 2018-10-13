@@ -6,6 +6,7 @@ html {
 body {
     height: 100%;
     overflow: auto;
+    background-image: linear-gradient(to top right, #1ed9ea, #8518a5);
 }
 a.nav-link {
     text-decoration: none;
@@ -70,23 +71,14 @@ a.nav-link:hover {
 .projects {
     height: 100%;
     padding-top: 7% !important;
-    background-image: url(../images/pixelbackground.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 .about {
     height: 100%;
     padding-top: 7% !important;
-    background-image: url(../images/pixelbackground.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 .contact {
     height: 100%;
     padding-top: 7% !important;
-    background-image: url(../images/pixelbackground.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 .intro-title {
     margin-top: 20vh;
@@ -170,6 +162,9 @@ animation-name: slideOutUp;
 .list-6 {
     animation-delay: .50s;
     animation-duration: 1s;
+}
+.project-list:hover {
+    box-shadow: 0px 0px 15px white;
 }
 .mainContact {
     height: 50vh;
